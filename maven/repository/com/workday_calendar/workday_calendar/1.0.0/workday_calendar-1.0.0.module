@@ -1,0 +1,99 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.workday_calendar",
+    "module": "workday_calendar",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "workday_calendar-1.0.0.jar",
+          "url": "workday_calendar-1.0.0.jar",
+          "size": 4674,
+          "sha512": "cf2fc86f87d32a080ef4c2f839465ffa05ac57861f3d7c70e6ef78cf669bdcccf74ca0eadd336314126e6fced72aeec8247086458445558f08e35134133c2379",
+          "sha256": "08a2d54a2ab2178ec1e3eaf77b9ebc6a6f679b0d9c60350bd57835737275b4e2",
+          "sha1": "db7e432e9064374187e5566e01d7b11ca5c7456e",
+          "md5": "f99b6b6cf832d5f679010c22a1a3a205"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.1.0-jre"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.datatype",
+          "module": "jackson-datatype-jsr310",
+          "version": {
+            "requires": "2.17.2"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-math3",
+          "version": {
+            "requires": "3.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "workday_calendar-1.0.0.jar",
+          "url": "workday_calendar-1.0.0.jar",
+          "size": 4674,
+          "sha512": "cf2fc86f87d32a080ef4c2f839465ffa05ac57861f3d7c70e6ef78cf669bdcccf74ca0eadd336314126e6fced72aeec8247086458445558f08e35134133c2379",
+          "sha256": "08a2d54a2ab2178ec1e3eaf77b9ebc6a6f679b0d9c60350bd57835737275b4e2",
+          "sha1": "db7e432e9064374187e5566e01d7b11ca5c7456e",
+          "md5": "f99b6b6cf832d5f679010c22a1a3a205"
+        }
+      ]
+    }
+  ]
+}
